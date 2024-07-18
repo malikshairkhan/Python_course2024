@@ -44,3 +44,20 @@ if city in list:
     print("cleanest")
 else:
     print("dirty city")""""
+
+#Task no:01
+
+list = ["lahore", "karachi", "kotli", "bhimber", "rawalakot"]
+
+city = input("enter the name of any city in pakistan: ")
+
+if city in list:
+    print("cleanest")
+else:
+    print("dirty city")
+    
+#Task no:02
+
+user = int(input("enter the table of number: "))
+for i in range(1,11):
+    print(f"{user} x {i} = {user*i}")   
